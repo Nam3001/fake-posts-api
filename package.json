@@ -1,0 +1,22 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "generate-posts": "node randomData.js",
+    "start": "node main.js"
+  },
+  "author": "Nam Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "casual": "^1.6.2",
+    "nodemon": "^2.0.15"
+  }
+}
